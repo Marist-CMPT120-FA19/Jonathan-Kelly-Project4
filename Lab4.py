@@ -1,3 +1,6 @@
+# Jonathan Kelly, 9/19/19, jonathan.kelly2@marist.edu
+# creates a stop light that goes from red to yellow to green then closes 
+
 from graphics import *
 
 def main():
@@ -12,6 +15,7 @@ def main():
     light.setFill("red")
     light.draw(win)
     
+    #pauses program for 1 second 
     time.sleep(1)
     
     light.setFill("yellow")
