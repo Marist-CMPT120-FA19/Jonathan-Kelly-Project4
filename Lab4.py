@@ -15,18 +15,14 @@ def main():
     light.setFill("red")
     light.draw(win)
     
-    #pauses program for 1 second 
-    time.sleep(1)
-    
+    light = Circle(Point(59,95), 20)
     light.setFill("yellow")
-    light.move(0,45)
+    light.draw(win)
     
-    time.sleep(1)
-    
+    light = Circle(Point(59,140), 20)
     light.setFill("green")
-    light.move(0,45)
+    light.draw(win)
     
-    time.sleep(2)
         
-    win.close()
+    win.getMouse()
 main()
